@@ -1,0 +1,166 @@
+*{
+    border: 1px solid red;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    margin-top: 0px;
+    height: 60px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.background {
+    width: 100%;
+    height: 65%;
+    background-origin: content-box;
+    position: relative;
+}
+
+.showfeats {
+    z-index: auto;
+    position: relative;
+    float: right;
+    width: 100%;
+    text-align: center;
+    margin-top: -450px;
+    color: white;
+    font-size: 8em;
+}
+
+.shows-container {
+    display: grid;
+    align-items: center; 
+    grid-template-areas: 'left center right';
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 145px;
+}
+
+.shows-container h2 {
+    margin-bottom: 400px;
+
+}
+
+h3 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+p {
+    text-align:center;
+    margin-top: 35px
+}
+
+.shows-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    justify-content: space-evenly;
+}
+
+.map {
+    width: 250px;
+    padding: 4%;
+    padding-left: 95px;
+}
+
+.mapimg {
+    width: 250px;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font-size: 13px;
+}
+
+.footshows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font-size: 13px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font-size: 13px
+}
+
+.foothead {
+    font-size: 2em;
+}
+
+.tiny {
+    margin: 1px;
+}
