@@ -80,40 +80,90 @@ a {
 }
 
 .shows-container {
-    display: grid;
-    align-items: center; 
-    grid-template-areas: 'left center right';
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    margin-top: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
 }
 
-.shows-container h2 {
-    margin-bottom: 400px;
+.row-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
+.row-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-four {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 h3 {
-    max-width: 100%;
-    height: auto;
-    display: block;
+    margin-bottom: 250px;
+    padding-left: 75px;
+    font-size: 45px;
 }
 
 p {
-    text-align:center;
-    margin-top: 35px
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 25px;
 }
 
-.shows-image {
-    max-width: 100%;
-    height: auto;
-    display: block;
+.show {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.show_object {
+    align-items: left;
+    font-size: 15px;
+    color: #515151;
+    margin: 10px;
+    padding: 10px;
+}
+
+.show_headline {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+.show_date {
+    font-size: 15px;
+    color: #515151;
+    margin-top: 10px;
+    align-items: left;
 }
 
 button {
     background-color: orange;
     color: white;
-    
+    font-size: 20px;
 }
 
 .bottom {
@@ -163,4 +213,12 @@ button {
 
 .tiny {
     margin: 1px;
+}
+
+.shaded-box {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color: #c4c1c1;
 }
